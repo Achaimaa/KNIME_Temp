@@ -1,1 +1,1 @@
-# KNIME_Temp
+Temperature Data Analysis Project
