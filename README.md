@@ -43,7 +43,7 @@ The following KNIME Rule Engine logic was used to classify each country's temper
 - $avg_temp$ <= $Mid_High$ => "Mid"
 - $avg_temp$ > $Mid_High$  => "High"
 This method ensures the classification adapts to your dataset — it’s not limited by hardcoded thresholds. This makes  solution more flexible, accurate, and applicable to future datasets with different temperature ranges.
-###  **Task 3: Country-Year Deviation from Global 24-Year Avg
+###  Task 3: Country-Year Deviation from Global 24-Year Avg
  For each country and year, compute the deviation from global average temperature over the last 24 years.
 - Global Reference Period:
 Max year = 2015 → Range: 1992–2015
@@ -53,14 +53,14 @@ Compute global average temperature over this period: 9.04°C
 Group country-year temperatures using GroupBy
 Subtract global average from each country’s yearly avg
 
-###  **Task 4: Top 5 Countries with Highest Deviation
+###  Task 4: Top 5 Countries with Highest Deviation
 Rank countries by their average difference from global temperature.
 Steps:
 Group country-year differences by Country
 Aggregate using Mean
 Sort by descending order
 Use Top K Selector for top 5
-###  **Task 5: Histogram of Global Yearly Temperatures
+###  Task 5: Histogram of Global Yearly Temperatures
 Visualize temperature trend over time.
 Steps:
 Group by Year
@@ -68,7 +68,7 @@ Aggregate global avg_temp (mean)
 Use JavaScript Histogram node for plotting
 
 
-###  **Task 6: City vs Global Temperature Trend (Cairo Example)
+###  Task 6: City vs Global Temperature Trend (Cairo Example)
  Compare temperature trend of one city with global average.
 Steps:
 Group city_data by Year for Cairo
