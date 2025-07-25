@@ -1,6 +1,6 @@
 # Temperature Data Analysis Project
 
-This project presents a detailed analysis and visualization of global and city-level temperature data using KNIME workflows. The tasks address statistical analysis, classification, comparison with global averages, and interactive visualizations.
+This project demonstrates a comprehensive analysis and visualization of global and city-level temperature data using KNIME workflows. The solution addresses data cleaning, statistical analysis, dynamic classification, and insightful comparisons with global averages
 
 ---
  
@@ -10,8 +10,7 @@ This project presents a detailed analysis and visualization of global and city-l
 - Missing values were handled before any calculations.
 - The maximum year found in the data: **2015**
 ## Handling Missing Values
-Null values in the city-level temperature dataset were handled by applying forward filling using "Missing Value"  Fill with mean in KNIME.
-
+Missing values in the city dataset were handled using KNIME’s Missing Value node with the “Fill with Mean” strategy — ensuring reliable aggregation and analysis.
 
 ##  Task Breakdown
 
