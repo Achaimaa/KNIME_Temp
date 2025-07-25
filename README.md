@@ -3,7 +3,7 @@
 This project presents a detailed analysis and visualization of global and city-level temperature data using KNIME workflows. The tasks address statistical analysis, classification, comparison with global averages, and interactive visualizations.
 
 ---
-
+ 
 ##  Dataset Overview
 - **City Data:** Includes yearly average temperature by country.
 - **Global Data:** Includes yearly global average temperature.
